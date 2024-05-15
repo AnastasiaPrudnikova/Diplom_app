@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/item_1"
+        android:enabled="true"
+        android:title=""
+        android:icon="@drawable/home"
+        app:itemBackground="@drawable/bottom_nav_item_selected_background" />
+    <item
+        android:id="@+id/item_2"
+        android:enabled="true"
+        android:title=""
+        android:icon="@drawable/notebook"
+        app:itemBackground="@drawable/bottom_nav_item_selected_background" />
+    <item
+        android:title=""
+        android:id="@+id/item_3"
+        android:enabled="true"
+        android:icon="@drawable/message"
+        app:itemBackground="@drawable/bottom_nav_item_selected_background" />
+    <item
+        android:title=""
+        android:id="@+id/item_4"
+        android:enabled="true"
+        android:icon="@drawable/group"
+        app:itemBackground="@drawable/bottom_nav_item_selected_background" />
+</menu>

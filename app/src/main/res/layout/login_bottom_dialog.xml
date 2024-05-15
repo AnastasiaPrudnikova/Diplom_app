@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="16sp"
+    android:paddingRight="16sp"
+    android:background="@drawable/background_bottom_dialog"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <View
+        android:layout_marginTop="8sp"
+        android:layout_gravity="center"
+        android:layout_width="30sp"
+        android:layout_height="3sp"
+        android:background="@drawable/line_view"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Войдите или зарегистрируйтесь, чтобы управлять своими бронированиями и записываться на новые."
+        android:textSize="14sp"
+        android:textColor="#505050"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="8sp"/>
+
+    <TextView
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Логин"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login"/>
+    <TextView
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Пароль"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"/>
+    <TextView
+        android:id="@+id/lose_pass"
+        android:gravity="right"
+        android:layout_gravity="right"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Забыли пароль?"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="16dp"
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Войти"/>
+    <TextView
+        android:layout_marginBottom="40dp"
+        android:id="@+id/reg"
+        android:gravity="right"
+        android:layout_gravity="right"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Нет аккаунта? Зарегистрироваться"/>
+</LinearLayout>

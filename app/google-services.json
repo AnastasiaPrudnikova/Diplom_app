@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "220686582823",
+    "project_id": "gorkunovavkr",
+    "storage_bucket": "gorkunovavkr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:220686582823:android:0064887401e541c6633a02",
+        "android_client_info": {
+          "package_name": "app.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA91KdC1juUTynm-1FyEheHPEx5_geJZQ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

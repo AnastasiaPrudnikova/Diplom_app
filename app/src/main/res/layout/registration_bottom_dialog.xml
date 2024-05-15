@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="8dp"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:text="Регистрация"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_weight="1"
+                android:hint="Введите имя"
+                android:layout_marginTop="4dp"
+                android:typeface="normal"
+                android:textSize="14sp"
+                android:id="@+id/imya"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_weight="1"
+                android:hint="Введите фамилию"
+                android:layout_marginTop="4dp"
+                android:typeface="normal"
+                android:textSize="14sp"
+                android:id="@+id/familia"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+
+        <EditText
+            android:hint="Введите номер телефона"
+            android:layout_marginTop="4dp"
+            android:typeface="normal"
+            android:textSize="14sp"
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:hint="Введите e-mail для регистрации"
+            android:layout_marginTop="4dp"
+            android:typeface="normal"
+            android:textSize="14sp"
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:hint="Введите пароль"
+            android:layout_marginTop="4dp"
+            android:typeface="normal"
+            android:inputType="textPassword"
+            android:textSize="14sp"
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginTop="24dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="false"
+            android:id="@+id/btn"
+            android:text="Продолжить"/>
+
+    </LinearLayout>
+
+</FrameLayout>
